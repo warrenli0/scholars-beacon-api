@@ -2,14 +2,14 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "type": "module",
   "scripts": {
     "postinstall": "npm run build",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node dist/main.js",
-    "dev": "ts-node-dev --respawn --transpile-only src/main.ts"
+    "dev": "ts-node-dev --respawn --transpile-only server/main.ts"
   },
   "keywords": [],
   "author": "",

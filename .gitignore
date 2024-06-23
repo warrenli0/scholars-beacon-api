@@ -1,0 +1,10 @@
+.env
+node_modules
+.angular
+.DS_Store
+/dist
+credentials.json
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
